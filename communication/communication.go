@@ -122,7 +122,7 @@ func read() {
 		SyncRTC = true
 	}
 
-	CurrentData = Data{DataTime: time.Now().Format("20060102150405.000"),
+	CurrentData = Data{DataTime: time.Now().Format("2006-01-02 15:04:05"),
 		E1: element[0], E2: element[1], E3: element[2], E4: element[3], E5: element[4], E6: element[5], E7: element[6], E8: element[7],
 		E9: element[8], E10: element[9], E11: element[10], E12: element[11], E13: element[12], E14: element[13], E15: element[14], E16: element[15],
 	}
